@@ -6,22 +6,11 @@ This project is a C-based simulation of an operating system that models process 
 
 - Process Control Block (PCB) management
 - Instruction parsing from text files
-- First-Come-First-Served (FCFS) scheduling
+- First-Come-First-Served (FCFS), Round-Robin (RR) and Multi-Level-Feedback-Queue (MLFQ) scheduling
 - Mutex-based synchronization
 - Modular components (`gui`, `pcb`, `mutex`, etc.)
 - Build automation via `makefile`
 
-## 📁 Project Structure
-
-| File             | Description |
-|------------------|-------------|
-| `main.c`         | Entry point and main simulation loop |
-| `pcb.c/.h`       | Defines and manages PCBs |
-| `instruction.c/.h` | Instruction parsing and handling |
-| `mutex.c/.h`     | Synchronization primitives |
-| `gui.c/.h`       | Optional GUI components |
-| `makefile`       | For compiling all components |
-| `Program_1.txt`  | Sample instruction file |
 
 ## 🛠️ How to Build & Run
 
